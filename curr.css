@@ -59,6 +59,7 @@ input,select{
     border: 1px solid var(--bg-4);
     border-radius: 5px;
     box-shadow: 0 0 15px rgba(255,0,0,1.5);
+    color: var(--bg-4);
 }
 button{
     width: 50%;
@@ -85,5 +86,6 @@ button:active{
     text-align: left;
     font-size: 1.0rem;
     color:var(--bg-4);
+
 
 }
