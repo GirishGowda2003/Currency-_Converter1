@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-1:#0f172a;
+    --bg-2:#1e293b;
+    --bg-3:#334155;
+    --bg-4:#e2e8f0;
+    --bg-5:#94a3b8;
+    --bg-6:#475569;
+    --bg-7:#3b82f6;
+    --bg-8:#2563eb;
+    --bg-9:#fff;
+}
+body{
+    /*background-color: var(--bg-2);*/
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("currency.jpg") no-repeat center center / cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 110vh;
+    padding: 20px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+h1{
+    text-align: center;
+    font-size:30px;
+    text-shadow:2px 2px 5px var(--bg-9);
+
+}
+.container{
+    width: 100%;
+    max-width: 300px;
+    background-color: var(--bg-7);
+    padding: 10px 10px ;
+    border-radius: 10px;
+    letter-spacing: .5px;
+    box-shadow: 0 0 20px rgba(0,255,0,.75);
+    border: 1px solid var(--bg-4);
+   
+}
+.form_group{
+    margin-top: 10px;
+    color: var(--bg-4);
+}
+label{
+    display: block;
+    margin: 5px 5px;
+    color: var(--bg-4);
+}
+input,select{
+    width: 100%;
+    padding: 10px;
+    background-color: var(--bg-3);
+    border: 1px solid var(--bg-4);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(255,0,0,1.5);
+}
+button{
+    width: 50%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--bg-4);
+    color: var(--bg-4);
+    background-color: var(--bg-3);
+    font-size: 15px ;
+    box-shadow: 0 0 15px rgba(0,0,255,1.5);
+}
+button:hover{
+    background-color:#75e1e1;
+    color: black;
+    transform: translateY(-2px);
+}
+button:active{
+    background-color: #1ee328;
+
+}
+#result{
+    text-align: left;
+    font-size: 1.0rem;
+    color:var(--bg-4);
+
+}
